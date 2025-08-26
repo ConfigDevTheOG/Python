@@ -22,7 +22,7 @@ while True:
         continue    
     
     # Computer randomly picks a move
-    computer_pick = random.(options)
+    computer_pick = random.choice(options)
     print("Computer picked", computer_pick + ".")
     
     # Check outcomes
